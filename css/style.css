@@ -1,6 +1,6 @@
 body {
     background-color: rgb(248, 235, 218);
-    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 .intro {
@@ -21,8 +21,8 @@ body {
 
 .main-subtitle {
     text-transform: uppercase;
-    font-weight: 400;
-    font-size: 25px;
+    font-weight: 300;
+    font-size: 22px;
     letter-spacing: 5px;
     color: #413b3b;
     margin-top: 50px;
@@ -69,9 +69,17 @@ body {
 }
 
 p {
-    font-size: 11px;
+    font-size: 13px;
     line-height: 200%;
     margin-bottom: 20px;
+}
+
+a {
+    color: black;
+    text-decoration: underline;
+}
+a:hover {
+    color: crimson;
 }
 
 .row {
